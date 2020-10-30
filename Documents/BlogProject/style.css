@@ -1,0 +1,49 @@
+a {
+    color: purple;
+}
+p{
+    color: green;
+}
+nav {
+    background-color: gray;
+    padding: 40px;
+    text-align: right;
+}
+
+.navButton{
+    color: white;
+    background-color: pink;
+    font-size: 30px;
+    align: right;
+}
+
+.pageTop{
+    height: 13%;
+    margin-right: -8px;
+    margin-left: -8px;
+    display: flex;
+    border-top-color: #24292e;
+    align-items: center;
+    flex-direction: column;
+    background-color: dimgrey;
+
+}
+
+.pageBottom{
+    height: 90%;
+    /* height at 80% allows the user (on fullscreen MAC, will test Windows on Raloh)
+       to see the 2 containers on the screen when first entering the site.
+       This should eliminate the scrolling issue x*/
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.form {
+    border-radius: 10px;
+    border-color: red;
+    background-color: silver;
+    text-align: center;
+}
