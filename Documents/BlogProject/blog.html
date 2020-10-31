@@ -15,6 +15,7 @@
     <!-- jQuery and JS bundle w/ Popper.js -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="js/addBlog.js"></script>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <a class="navbar-brand">
@@ -40,14 +41,40 @@
       
     </div>
   </nav> 
-    <a class="btn btn-primary" href="addnew.html" role="button">Add New</a></br>
 
+    <div class="allCards">
 
+        <div id="new_blogs"></div>
 
+    
+    <div class="blog">
     <div class="card mb-3" style="max-width: 70%;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="..." class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <div class="add_blog">
+                    
+                     <form id="newBlog">
+                         <label for="card-title">Title</label><input type="text" name="card-title" id="card-title"></br>
+                         <label for="card-text">Description:</label>
+                         <textarea name="card-text" id="card-text" rows="4" cols="50"></textarea>
+                         <button type="button" onclick="addBlog()">Add Post</button>
+                     </form>                    
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+   
+<div class="blog">
+    <div class="card mb-3" style="max-width: 70%;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="pictures/ccflogo.jpg" class="card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -58,11 +85,13 @@
           </div>
         </div>
       </div>
+</div>
 
+<div class="blog">
       <div class="card mb-3" style="max-width: 70%;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="..." class="card-img" alt="...">
+            <img src="pictures/live.JPG" class="card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -73,26 +102,30 @@
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="blog">
       <div class="card mb-3" style="max-width: 70%;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="..." class="card-img" alt="...">
+            <img src="pictures/oneupWin.jpg" class="card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">J3 Secures Summit Bid!</h5>
-              <p class="card-text">Our Junior level 3 team Junior Royals put on a stellar preformance this weekend at King of the Jungle competiion in Baltimore, MD. They were awarded first place, and recieved a bid to the D2 Summit competition...</p>
+              <p class="card-text">Our Junior level 3 team Junior Royals put on a stellar preformance this weekend at the OneUp competition in Baltimore, MD. They were awarded first place, and recieved a bid to the D2 Summit competition...</p>
               <p class="card-text"><small class="text-muted">December 11, 2019</small></p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+\
 
       <div class="card mb-3" style="max-width: 70%;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="..." class="card-img" alt="...">
+            <img src="pictures/nca.JPG" class="card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -103,5 +136,7 @@
           </div>
         </div>
       </div>
+      </div>
+      
 </body>
 </html>
