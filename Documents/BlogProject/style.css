@@ -2,48 +2,57 @@ a {
     color: purple;
 }
 p{
-    color: green;
+    color: palevioletred;
 }
-nav {
-    background-color: gray;
-    padding: 40px;
-    text-align: right;
+h5{
+    text-align: center;
+    text-shadow: 12px, 12px;
 }
-
-.navButton{
-    color: white;
-    background-color: pink;
-    font-size: 30px;
-    align: right;
+h6{
+    font-size: 40px;
+    text-align: center;
+    color: palevioletred;
+    font-family: sans-serif;
 }
 
-.pageTop{
-    height: 13%;
-    margin-right: -8px;
-    margin-left: -8px;
-    display: flex;
-    border-top-color: #24292e;
-    align-items: center;
-    flex-direction: column;
-    background-color: dimgrey;
 
-}
-
-.pageBottom{
-    height: 90%;
-    /* height at 80% allows the user (on fullscreen MAC, will test Windows on Raloh)
-       to see the 2 containers on the screen when first entering the site.
-       This should eliminate the scrolling issue x*/
-    margin: -8px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: gray;
-}
-
-.form {
-    border-radius: 10px;
-    border-color: red;
+.myForm {
+    
     background-color: silver;
     text-align: center;
+    padding: 15px 40px 40px;
+    width: 900px;
+    height: 50%;
+    margin: 50px auto 0;
 }
+
+.card{
+    border-right: 5px;
+}
+input, select, textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: palevioletred;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.jumbo{
+    padding: 15px 40px 40px 15px;
+}
+
+.boxbox {
+    background-color: silver;
+    padding: 15px 40px 40px;
+}
+
